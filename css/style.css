@@ -10,11 +10,11 @@ body{
   flex-wrap: wrap;
   background-color: #3799DE;
   border-radius: 10px;
-
+  /*Endrer på hele nettsidens innhold*/
 }
 
 .row1, .row2, .row3, .tittel{
-
+  /*endrer på menyen, billedtittelem, og billedgalleriet*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -22,11 +22,12 @@ body{
 }
 
 
-.row1{
+.row1{   /*endrer kun på menyen*/
   order: 2;
 }
 
 .tittel{
+    /*endre billedgalleri tittelen*/
   order: 3;
   background-color: #eee;
   padding: 20px;
@@ -35,20 +36,20 @@ body{
   border-radius: 10px;
 }
 
-.tittel h1{
+.tittel h1{  /*endre billedgalleri tittelen*/
   text-align: center;
   width: 100%;
 }
 
-.row2{
+.row2{   /*endre billedgalleri rekke nr1*/
   order: 4;
 }
 
-.row3{
+.row3{ /*endre billedgalleri rekke nr2*/
   order: 5;
 }
 
-.header1{
+.header1{ /*endre bakgrunnsbildene i topppen på de ulike nettsiden*/
   background-image: url("../img/img1.jpeg");
 }
 .header2{
@@ -65,7 +66,7 @@ body{
 }
 
 
-.header{
+.header{ /*endre på boksen der tittelen og bakgrunssbildene står i */
   flex-basis: 100%;
   height: 500px;
   background-color: #eee;
@@ -84,7 +85,7 @@ body{
 
 }
 
-.box{
+.box{ /*endre på tittelen i toppen*/
   margin-top: 150px;
   margin-left: 50px;
   margin-right: 50px;
@@ -95,7 +96,7 @@ body{
   opacity: 0.70;
 }
 
-.header .box h1{
+.header .box h1{ /*endre på tittelen i toppen*/
 
   width: 100%;
   text-align: center;
@@ -106,7 +107,7 @@ body{
 }
 
 
-.menu{
+.menu{ /*endre på menyen*/
   flex-basis: 150px;
   background-color: #44A7EB;
   padding: 5px;
@@ -115,7 +116,7 @@ body{
   border-radius: 10px;
 }
 
-.mainContent{
+.mainContent{ /*endre på hovedinnholdet, teksten om meg selv*/
   flex: 1;
   background-color: #eee;
   padding: 20px;
@@ -123,7 +124,7 @@ body{
   order: 2;
   border-radius: 10px;
 }
-.Content2{
+.Content2{ /*endre på  utseende i sekundærinnholdet, youtube eller kart*/
 
   background-color: #eee;
   padding: 20px;
@@ -133,7 +134,7 @@ body{
   border-radius: 10px;
 }
 
-.Content3, .Content4, .Content5, .Content6, .Content7, .Content8{
+.Content3, .Content4, .Content5, .Content6, .Content7, .Content8{ /*endre på bildene*/
 
   background-color: #eee;
   padding: 20px;
@@ -147,7 +148,7 @@ body{
 
 
 
-footer{
+footer{ /*endre på footeren i bunnen*/
   background-color: #eee;
   padding-left: 15px;
   margin: 5px;
@@ -157,18 +158,18 @@ footer{
   font-weight: 600;
 }
 
-li{
+li{ /*endre på elementene i lister*/
   display: block;
   width: 100%;
   height: 30px;
 
 }
-ul{
+ul{ /*endre på uordnede lister*/
   padding: 0;
   margin: 5px;
 }
 
-ul a{
+ul a{ /*endre på linkene i uordnede lister*/
   display: block;
    width: 120px;
    padding: 10px;
@@ -181,27 +182,31 @@ ul a{
    text-align: center;
 }
 
-ul a:hover,  .active
+ul a:hover,  .active /*endre på linkene i uordnede lister når de er aktive og når en holder over dem*/
 {
   background-color: #2D4354;
 }
 
-video{
+video{ /*endre på videoene*/
   width: 100%;
   border-radius: 10px;
 }
 
-img{
+img{ /*endre på bildene*/
   width: 100%;
   border-radius: 10px;
 }
 
-.sosialelinker{
+.sosialelinker{ /*endre på linkene i sosiale linker divet*/
   text-decoration: none;
   color: #3799DE;
 }
 
-.sosialelinker:hover{
+.sosialelinker:hover{/*endre på linkene i sosiale linker divet, når en holder over dem*/
   text-decoration: underline;
 
+}
+
+table{ /*endre på tabellen*/
+  line-height: 1.8;
 }
